@@ -1,2 +1,2 @@
 # about-me
-About Me project for Code 201
+hey its me i put it in the functions
