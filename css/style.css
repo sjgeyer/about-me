@@ -1,54 +1,75 @@
 body {
     font-family: sans-serif;
-    padding: 30px;
     background-image: url("../img/chevrons.jpg");
-    margin: 20px;
+    margin: auto;
+    max-width: 500px;
+}
+
+img {
+    border: solid black;
+    max-width: 494px;
+    border-top: none;
     margin-bottom: 0px;
+    display: block;
+}
+
+nav li {
+    display: inline;
+    padding: 14px;
+    margin-top: 0px;
+}
+
+nav ul {
+    background-color: white;
+    border: solid black;
+    border-top: none;
+    padding: 10px;
+    margin: 0px;
+}
+
+h1, header {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    padding: 20px;
+    margin: 0px;
 }
 
 h1 {
     font-size: 40px;
-    text-align: center;
-    background-color: white;
-    padding: inherit;
-    border-style: solid;
-    border-color: black;
     margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
 }
 
 header {
-    font-size: 15px;
     font-family: monospace;
     font-weight: bold;
-    text-align: center;
-    background-color: black;
-    color: white;
+    font-size: 15px;
     margin-top: 0px;
-    padding: inherit;
+    border-top: none;
 }
 
-article {
-    padding: inherit;
-    margin-top: 0px;
+.content {
+    padding: 20px;
+    margin: 0px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
 }
 
 h2 {
     font-family: monospace;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
 }
 
 ul, p {
     font-size: 90%;
-}
-
-#bio, #projects {
-    background-color: white;
-    border-style: solid;
-    border-color: black;
-}
-
-#skills, #education {
-    background-color: black;
-    color: white;
 }
 
 h3 {
@@ -56,4 +77,6 @@ h3 {
     font-size: 90%;
 }
 
-
+ol {
+    font-size: 90%;
+}

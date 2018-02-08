@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,44 +8,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
+
 <body>
     <h1>About Sarah</h1>
     <header>Hello and welcome to my page! Please browse around to learn a little more about me!</header>
+
+    <img src="img/tree.jpg" alt="Picture of Trees" title="Picture of Trees" >
+
+    <nav>
+        <ul>
+            <li><a href="#bio">BIO</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#fun">FUN FACTS</a></li>
+        </ul>
+    </nav>
     
     <article id="bio">
         <h2>Bio</h2>
-        <p>I'm a young professional looking to break into software development. I love reading, eating, and, of course, coding.</p>
+        <p class="content">I'm a young professional looking to break into software development. I love reading, eating, and, of course, coding.</p>
     </article>
     
     <article id="skills">
-        <h2>Professional Skills</h2>
-        <ul>
-            <li>JavaScript, HTML, CSS</li>
-            <li>Repurposing old t-shirts into rugs</li>
-            <li>Sleeping</li>
-            <li>Watching and sharing cute hedgehog gifs</li>
-        </ul>
+        <h2>Professional Skills & Hobbies</h2>
+        <div class="content">
+            <ul>
+                <li>Communication</li>
+                <li>Adaptability</li>
+                <li>Organization</li>
+            </ul>
+            <h3>Languages</h3>
+            <ul>
+                <li>Technical: </li>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>    
+                <li>Human:</li>
+                    <ul>
+                        <li>English (native)</li>
+                        <li>ASL (intermediate)</li>
+                        <li>French (intermediate)</li>
+                        <li>German (elementary)</li>
+                    </ul>
+            </ul>
+           <h3>Hobbies</h3>
+           <ul>
+               <li>Reading</li>
+               <li>Running</li>
+               <li>Embroidery</li>
+               <li>Baking</li>
+           </ul>
+           
+        </div>
     </article>
 
     <article id="projects">
         <h2>Projects</h2>
-        <p>None yet! Check back later!</p>
+        <p class="content">None yet! Check back later!</p>
     </article>
 
     <article id="education">
         <h2>Education</h2>
-        <h3>Code Fellows | Feb 2018 - Jun 2018 (expected)</h3>
-        <ul>
-            <li>Certificate: Full-stack JavaScript Development</li>
-        </ul>
-        <h3>University of Washington | Sep 2010 - June 2015</h3>
-        <ul>
-            <li>Bachelor of Arts: Environmental Studies</li>
-            <li>Bachelor of Science: Ecology, Evolution, and Conservation Biology</li>
-            <li>Minor: American Sign Language</li>
-        </ul>
+        <div class="content">
+            <h3>Code Fellows | Feb 2018 - Jun 2018 (expected)</h3>
+            <ul>
+                <li>Certificate: Full-stack JavaScript Development</li>
+            </ul>
+            <h3>University of Washington | Sep 2010 - June 2015</h3>
+            <ul>
+                <li>Bachelor of Arts: Environmental Studies</li>
+                <li>Bachelor of Science: Ecology, Evolution, and Conservation Biology</li>
+                <li>Minor: American Sign Language</li>
+            </ul>
+        </div>
+    </article>
+
+    <article id="fun">
+        <h2>Fun Facts About Me!</h2>
+        <div class="content">
+            <h3>Top 10 Favorite Podcasts</h3>
+            <ol>
+                <li>My Favorite Murder</li>
+                <li>Stuff You Should Know</li>
+                <li>This American Life</li>
+                <li>The Adventure Zone</li>
+                <li>Stuff Mom Never Told You</li>
+                <li>TED Radio Hour</li>
+                <li>Someone Knows Something</li>
+                <li>Serial</li>
+                <li>Unladylike</li>
+                <li>The Pete Carroll Show</li>
+            </ol>
+            <h3>Top 5 Favorite Book Series</h3>
+            <ol>
+                <li>Harry Potter by J.K. Rowling</li>
+                <li>Hitchhiker's Guide to the Galaxy by Douglas Adams</li>
+                <li>Lord of the Rings by J.R.R. Tolkien</li>
+                <li>A Song of Ice and Fire by George R. R. Martin</li>
+                <li>Ender's Game by Orson Scott Card</li>
+            </ol>
+        </div>
+        <h2>
+
+        </h2>
     </article>
 
     <script src="js/app.js"></script>
 </body>
+
 </html>
