@@ -24,8 +24,8 @@ if (answerOne === 'yes' || answerOne === 'y') {
 }
 
 //Second question: do I speak any other languages besides English?
-var answerTwo = prompt('Do I speak any other languages besides English?').toLowerCase().trim();
-console.log('User responded with ' + answerTwo + ' when asked if I speak other languages.');
+var answerTwo = prompt('Do I know any other languages besides English?').toLowerCase().trim();
+console.log('User responded with ' + answerTwo + ' when asked if I know other languages.');
 
 if (answerTwo === 'yes' || answerTwo === 'y') {
   alert('Correct! I have varied fluencies in French, German, and American Sign Language.');
@@ -70,7 +70,7 @@ if (answerFive === 'yes' || answerFive === 'y') {
   alert('Hooray! You, ' + username + ', are a class act.');
   count++;
 } else if (answerFive === 'no' || answerFive === 'n') {
-  alert('Well, ' + username + ', that\'s very rude. Why have you come to my page?');
+  alert('Well, ' + username + ', that\'s very rude. I\'m counting that as a wrong answer!');
 } else {
   alert('I don\'t know what that means. But I\'ll interpret that as a yes!');
 }
@@ -86,9 +86,9 @@ for (var i = 0; i < 4; i++) {
   } else {
     guess = prompt('Last chance! How many books do I own?');
   }
-  var numGuess = parseInt(guess);
-  
   console.log('User responded with ' + guess + ' when asked how many books I own.');
+  var numGuess = parseInt(guess);
+
   if (numGuess === numBooks) {
     alert('Congratulations, ' + username + '! You guessed it! I own ' + numBooks + ' books, and am always searching for more!');
     count++;
@@ -100,7 +100,7 @@ for (var i = 0; i < 4; i++) {
   } else if (i === 3 && numGuess !== numBooks) {
     alert('Well, you tried. The correct answer was ' + numBooks + '.');
   } else {
-    alert('Are you sure you answered with a number? To clarify, I meant like "5", not like "five". Guesses used: ' + (i + 1));
+    alert('Are you sure you answered with a number? Guesses used: ' + (i + 1));
   }
 }
 
@@ -138,4 +138,5 @@ if (guesses === 6 && wrong) {
   alert('Couldn\'t figure it out? Here are all the possible correct responses: ' + faveBooks.join(', ') + '. Check out my page to find out some of my other favorite things!');
 }
 
+//final count alert
 alert('Well, ' + username + ' that\'s all the questions I have for you! Feel free to refresh the page anytime to play again. Total correct: ' + count + ' of 7.');
