@@ -1,2 +1,5 @@
 # about-me
-hey its me i put it in the functions
+About me project for Code 201
+
+Driver: Panos
+Navigator: Sarah

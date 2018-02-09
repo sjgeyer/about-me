@@ -1,6 +1,7 @@
 body {
     font-family: sans-serif;
     background-image: url("../img/chevrons.jpg");
+    background-attachment: fixed;
     margin: auto;
     max-width: 500px;
     border: solid black 3px;
@@ -27,7 +28,7 @@ li {
 
 nav li {
     display: inline;
-    padding: 14px;
+    padding: 15px;
     margin: auto;
 }
 
@@ -46,17 +47,14 @@ h1, header {
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: bold;
+    font: bold 40px sans-serif;
     margin-bottom: 0px;
     padding-bottom: 0px;
     border-bottom: none;
 }
 
 header {
-    font-family: monospace;
-    font-weight: bold;
-    font-size: 15px;
+    font: bold 15px monospace;
     margin-top: 0px;
     border-top: none;
 }
@@ -68,9 +66,7 @@ header {
 }
 
 h2 {
-    font-size: 1.5em;
-    font-weight: bold;
-    font-family: monospace;
+    font: bold 20px monospace;
     text-align: center;
     background-color: black;
     color: white;
@@ -79,18 +75,16 @@ h2 {
 }
 
 ul, p {
-    font-size: 90%;
+    font-size: 14px;
 }
 
 h3 {
-    font-style: italic;
-    font-size: 1.17em;
-    font-weight: bold;
+    font: italic bold 17px sans-serif;
     margin: 7px;
 }
 
 ol {
-    font-size: 90%;
+    font-size: 14px;
     list-style-type: decimal;
 }
 
